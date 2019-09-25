@@ -16,11 +16,11 @@ CREATE TABLE Admins (
 ) ENGINE=InnoDB;
 
 CREATE TABLE Images (
-  name varchar(255) NOT NULL,PRIMARY KEY,
+  name varchar(255) NOT NULL PRIMARY KEY,
   imgPath varchar(255) NOT NULL,
   serviceName varchar(255) NOT NULL,
   uploadDate datetime NOT NULL,
   FOREIGN KEY (serviceName) REFERENCES Services(serviceName)
                 ON DELETE NO ACTION ON UPDATE CASCADE,
-  UNIQUE (name, img_path, upload_date)
+  UNIQUE (name, imgPath, uploadDate)
 ) ENGINE=InnoDB;
