@@ -8,7 +8,7 @@
       
 }
 
-/*logo color #D42A2A*/
+/*logo color #FE7E09*/
 
 html,body{
     width: 100%;
@@ -64,5 +64,66 @@ li.active_link{
 	color: #333;
 	text-decoration: none;
 	outline: none;
+}
+#nav_ul li a:hover{
+	color: #FE7E09;
+}
+
+/*---------footer-----*/
+#footer{
+	width: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#footer_ul {
+	overflow: auto;
+	width: 70%;
+	margin: 0 15%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #eee;
+}
+
+#footer_ul .footer_li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	width: 33.33333%;
+}
+#footer_ul .footer_li a{
+	text-align: center;
+}
+
+#footer_ul .footer_li a i {
+	background: white;
+	color: #000;
+	width: 32px;
+	height: 32px;
+	border: 1px solid black;
+	border-radius: 20px;
+	font-size: 100%;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+#footer_ul .footer_li .fa-facebook:hover {
+	background-color:#3b5998;
+	color: white;
+	border:none;
+} 
+#footer_ul .footer_li .fa-instagram:hover {
+	background-color:#962FBF;
+	color: white;
+	border:none;
+} 
+#footer_ul .footer_li .fa-youtube:hover {
+	background-color:#ff0000;
+	color: white;
+	border:none;
+} 
+#copyright{
+	font-size: 80%;
+	
 
 }
